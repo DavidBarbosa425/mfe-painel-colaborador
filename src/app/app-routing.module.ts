@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { PainelColaboradorComponent } from './features/painel-colaborador/pages/painel-colaborador.component';
 
 const MFE1_ROUTES: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: PainelColaboradorComponent,
   },
 ];
 
