@@ -1,0 +1,59 @@
+
+.div-resumo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-func-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.div-empresa-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.div-superior-container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #cdcdcd;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+}
+
+.div-empresa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-texto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.picture-card-func {
+    position: relative;
+    height: 63px;
+    width: 63px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
