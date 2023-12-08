@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
@@ -14,8 +13,9 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     CommonModule,
     AppRoutingModule,
-    PainelColaboradorModule,
     SharedModule,
+    PainelColaboradorModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
