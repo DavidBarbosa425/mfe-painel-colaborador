@@ -1,0 +1,30 @@
+<mat-tab-group [selectedIndex]="tabIndex" mat-stretch-tabs class="mt-1">
+    <mat-tab>
+
+        <ng-template mat-tab-label>
+            Equipe
+        </ng-template>
+
+        <!-- <div *ngIf="exibirTab(0)"> -->
+        <div>
+            <painel-colaborador-tabs-equipe></painel-colaborador-tabs-equipe>
+
+        </div>
+
+    </mat-tab>
+
+    <mat-tab>
+
+        <ng-template mat-tab-label>
+            Ponto
+        </ng-template>
+
+        <!-- <div *ngIf="exibirTab(0)"> -->
+        <div>
+            <painel-colaborador-tabs-ponto></painel-colaborador-tabs-ponto>
+
+        </div>
+
+    </mat-tab>
+    
+</mat-tab-group>
