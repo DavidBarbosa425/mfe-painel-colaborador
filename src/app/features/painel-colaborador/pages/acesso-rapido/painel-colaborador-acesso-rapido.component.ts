@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core"
 
-
 @Component({
   selector: 'painel-colaborador-acesso-rapido',
   templateUrl: './painel-colaborador-acesso-rapido.component.html',
