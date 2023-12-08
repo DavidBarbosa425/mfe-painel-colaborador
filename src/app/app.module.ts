@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PainelColaboradorModule } from './features/painel-colaborador.module';
 import { SharedModule } from './shared/shared.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +15,8 @@ import { SharedModule } from './shared/shared.module';
     CommonModule,
     AppRoutingModule,
     PainelColaboradorModule,
-    SharedModule],
+    SharedModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
