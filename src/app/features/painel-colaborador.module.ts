@@ -7,6 +7,7 @@ import { SharedModule } from "../shared/shared.module";
 import { PainelColaboradorTabsComponent } from "./painel-colaborador/pages/tabs/painel-colaborador-tabs.component";
 import { PainelColaboradorTabsEsquipeComponent } from "./painel-colaborador/pages/tabs/equipe/painel-colaborador-tabs-equipe.component";
 import { CardEquipeComponent } from "./painel-colaborador/pages/tabs/equipe/card-equipe/card-equipe.component";
+import { PainelColaboradorTabsPontoComponent } from "./painel-colaborador/pages/tabs/ponto/painel-colaborador-tabs-ponto.component";
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import { CardEquipeComponent } from "./painel-colaborador/pages/tabs/equipe/card
         PainelColaboradorAcessoRapidoComponent,
         PainelColaboradorTabsComponent,
         PainelColaboradorTabsEsquipeComponent,
-        CardEquipeComponent
+        CardEquipeComponent,
+        PainelColaboradorTabsPontoComponent
     ],
     providers: [],
     imports: [
